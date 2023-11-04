@@ -1,0 +1,32 @@
+{
+  "name": "patience",
+  "version": "1.0.0",
+  "description": "The World's Worst App",
+  "main": "build/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/KaizerinMedia/patience.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tsc-watch --onSuccess \"node build/index.js\"",
+    "start": "node build/index.js",
+    "build": "tsc"
+  },
+  "author": {
+    "name": "Kaizerin Media",
+    "email": "kaizerin.media@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "helmet": "^7.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/KaizerinMedia/patience/issues"
+  },
+  "homepage": "https://github.com/KaizerinMedia/patience#readme",
+  "devDependencies": {}
+}
